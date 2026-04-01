@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Phở Bò Hà Nội - Hương vị truyền thống từ nước dùng hầm xương 24 giờ. Tô phở chuẩn vị Bắc giữa lòng thành phố.">
+  <title>Phở Bò Hà Nội — Hương Vị Truyền Thống</title>
+  <link rel="canonical" href="https://phobohanoirestaurant.com/">
+  <meta property="og:title" content="Phở Bò Hà Nội — Hương Vị Truyền Thống">
+  <meta property="og:description" content="Nước dùng hầm xương 24 giờ. Thịt bò tươi ngon. Tô phở chuẩn vị Bắc.">
+  <meta property="og:image" content="./pho_hero.png">
+  <meta property="og:type" content="restaurant">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="noise-overlay">
+
+  <!-- Skip to main content (Accessibility) -->
+  <a href="#main-content" class="skip-link">Bỏ qua đến nội dung chính</a>
+
+  <!-- ========== NAVBAR ========== -->
+  <header id="site-header">
+    <nav class="navbar" id="navbar" aria-label="Điều hướng chính">
+      <a href="#hero" class="navbar-logo" id="nav-logo" aria-label="Phở Bò Hà Nội - Trang chủ">
+        <span class="logo-vn">PHỞ BÒ</span>
+        <span class="logo-sub">HÀ NỘI</span>
+      </a>
+
+      <ul class="navbar-links" id="navbar-links" role="list">
+        <li><a href="#story" id="nav-story">Câu Chuyện</a></li>
+        <li><a href="#menu" id="nav-menu">Thực Đơn</a></li>
+        <li><a href="#ingredients" id="nav-ingredients">Nguyên Liệu</a></li>
+        <li><a href="#gallery" id="nav-gallery">Không Gian</a></li>
+        <li><a href="#contact" id="nav-contact">Liên Hệ</a></li>
+      </ul>
+
+      <a href="#reservations" class="btn btn-filled" id="nav-reserve-btn">Đặt Bàn</a>
+
+      <button class="hamburger" id="hamburger-btn" aria-label="Mở menu" aria-expanded="false" aria-controls="navbar-links">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg">
+        <img src="./pho_hero.png" alt="Tô phở bò nóng hổi trong ánh chiều tà" class="hero-bg-img" loading="eager">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content stagger-in">
+        <p class="hero-tagline">Từ năm 1968</p>
+        <h1 id="hero-title" class="hero-title">
+          Phở Bò<br>
+          <em>Hà Nội</em>
+        </h1>
+        <p class="hero-subtitle">
+          Nước dùng hầm xương ống & xương cục <strong>24 giờ</strong> cùng gia vị bí truyền.<br>
+          Hương vị chân thực từ trái tim Hà Nội.
+        </p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-filled" id="hero-menu-btn">Xem Thực Đơn</a>
+          <a href="#story" class="btn btn-outlined" id="hero-story-btn">Câu Chuyện Của Chúng Tôi</a>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator" aria-hidden="true">
+          <div class="scroll-dot"></div>
+        </div>
+      </div>
+
+      <!-- Floating stats -->
+      <div class="hero-stats" aria-label="Thống kê nổi bật">
+        <div class="stat-item glass">
+          <span class="stat-number">56</span>
+          <span class="stat-label">Năm lịch sử</span>
+        </div>
+        <div class="stat-item glass">
+          <span class="stat-number">24h</span>
+          <span class="stat-label">Hầm nước dùng</span>
+        </div>
+        <div class="stat-item glass">
+          <span class="stat-number">⭐ 4.9</span>
+          <span class="stat-label">Đánh giá</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STORY ========== -->
+    <section id="story" class="section story-section" aria-labelledby="story-title">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-text">
+            <span class="section-eyebrow">Câu Chuyện</span>
+            <h2 id="story-title" class="section-title">Hương Vị Của<br><em>Ký Ức</em></h2>
+            <p class="story-body">
+              Năm 1968, bà Nguyễn Thị Lan gánh nồi phở đầu tiên trên con phố nhỏ Hà Nội. Với ước mơ giản dị về tô phở chuẩn vị, bà đã tạo nên một di sản ẩm thực truyền qua ba thế hệ.
+            </p>
+            <p class="story-body">
+              Bí quyết nằm ở xương bò chất lượng, hầm chậm 24 tiếng cùng bộ gia vị <em>bát giác, quế, đinh hương, hồi</em> — rang thơm từng mẻ mỗi sáng sớm. Không bột ngọt, không đường nhân tạo.
+            </p>
+            <blockquote class="story-quote glass-enhanced">
+              <p>"Một tô phở tốt không cần phải nói nhiều. Nó tự nói lên điều đó."</p>
+              <cite>— Bà Nguyễn Thị Lan, Người sáng lập</cite>
+            </blockquote>
+          </div>
+          <div class="story-image-wrap">
+            <img src="./pho_ambiance.png" alt="Không gian nhà hàng ấm áp theo phong cách truyền thống Hà Nội" loading="lazy" class="story-img">
+            <div class="story-image-badge glass">
+              <span class="badge-year">1968</span>
+              <span class="badge-text">Thành lập</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MENU ========== -->
+    <section id="menu" class="section menu-section" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Thực Đơn</span>
+          <h2 id="menu-title" class="section-title">Các Món <em>Phở Bò</em></h2>
+          <p class="section-desc">Mỗi tô là một tác phẩm thủ công, được chuẩn bị kỹ lưỡng từng ngày.</p>
+        </div>
+
+        <div class="menu-grid">
+          <!-- Item 1 -->
+          <article class="menu-card card" id="menu-pho-tai" aria-label="Phở Tái">
+            <div class="menu-card-badge">Bestseller</div>
+            <div class="menu-card-icon">🍜</div>
+            <h3 class="menu-card-name">Phở Tái</h3>
+            <p class="menu-card-desc">Thịt bò tươi thái mỏng, nhúng vào nước dùng sôi bỏng. Mềm, ngọt, tan trong miệng.</p>
+            <div class="menu-card-footer">
+              <span class="menu-price">85.000₫</span>
+              <span class="menu-size">Tô lớn: 95.000₫</span>
+            </div>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="menu-card card" id="menu-pho-chin" aria-label="Phở Chín">
+            <div class="menu-card-icon">🥩</div>
+            <h3 class="menu-card-name">Phở Chín</h3>
+            <p class="menu-card-desc">Thịt bò nạm + gầu hầm mềm nhừ, đậm đà hương vị. Dành cho người thích thịt chín kỹ.</p>
+            <div class="menu-card-footer">
+              <span class="menu-price">85.000₫</span>
+              <span class="menu-size">Tô lớn: 95.000₫</span>
+            </div>
+          </article>
+
+          <!-- Item 3 -->
+          <article class="menu-card card featured" id="menu-pho-dac-biet" aria-label="Phở Đặc Biệt">
+            <div class="menu-card-badge featured-badge">Đặc Biệt</div>
+            <div class="menu-card-icon">👑</div>
+            <h3 class="menu-card-name">Phở Đặc Biệt</h3>
+            <p class="menu-card-desc">Tổng hợp tái + chín + gân + sách + bò viên. Đỉnh cao thưởng thức phở — không thiếu một thứ gì.</p>
+            <div class="menu-card-footer">
+              <span class="menu-price">120.000₫</span>
+              <span class="menu-size">Tô lớn: 140.000₫</span>
+            </div>
+          </article>
+
+          <!-- Item 4 -->
+          <article class="menu-card card" id="menu-pho-bo-vien" aria-label="Phở Bò Viên">
+            <div class="menu-card-icon">🔮</div>
+            <h3 class="menu-card-name">Phở Bò Viên</h3>
+            <p class="menu-card-desc">Bò viên dai giòn, tự tay chế biến mỗi ngày. Nước dùng trong vắt, thơm nức mũi.</p>
+            <div class="menu-card-footer">
+              <span class="menu-price">80.000₫</span>
+              <span class="menu-size">Tô lớn: 90.000₫</span>
+            </div>
+          </article>
+
+          <!-- Item 5 -->
+          <article class="menu-card card" id="menu-pho-gan" aria-label="Phở Gân">
+            <div class="menu-card-icon">✨</div>
+            <h3 class="menu-card-name">Phở Gân</h3>
+            <p class="menu-card-desc">Gân bò hầm mềm, giòn sần sật. Vị béo ngậy hòa quyện cùng nước dùng trong sáng.</p>
+            <div class="menu-card-footer">
+              <span class="menu-price">90.000₫</span>
+              <span class="menu-size">Tô lớn: 100.000₫</span>
+            </div>
+          </article>
+
+          <!-- Item 6 - Drinks -->
+          <article class="menu-card card" id="menu-drinks" aria-label="Đồ Uống">
+            <div class="menu-card-icon">🧋</div>
+            <h3 class="menu-card-name">Trà & Nước Uống</h3>
+            <p class="menu-card-desc">Trà đá miễn phí. Cà phê đen, sữa tươi, nước ngọt các loại phục vụ quý khách.</p>
+            <div class="menu-card-footer">
+              <span class="menu-price">Trà đá: Miễn phí</span>
+              <span class="menu-size">Cà phê: 25.000₫</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INGREDIENTS ========== -->
+    <section id="ingredients" class="section ingredients-section" aria-labelledby="ingredients-title">
+      <div class="ingredients-bg">
+        <img src="./pho_ingredients.png" alt="Các nguyên liệu hương vị truyền thống của phở bò" loading="lazy" class="ingredients-bg-img">
+        <div class="ingredients-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="section-header light-header">
+          <span class="section-eyebrow light">Bí Quyết</span>
+          <h2 id="ingredients-title" class="section-title light">Nguyên Liệu <em>Bí Truyền</em></h2>
+          <p class="section-desc light">Không có đường tắt. Chỉ có nguyên liệu thật và thời gian.</p>
+        </div>
+
+        <div class="spices-grid">
+          <div class="spice-card glass" id="spice-star-anise">
+            <div class="spice-icon">⭐</div>
+            <h3 class="spice-name">Hồi / Bát Giác</h3>
+            <p class="spice-desc">Tạo hương thơm đặc trưng, không thể thiếu trong nước dùng phở Bắc chính thống.</p>
+          </div>
+          <div class="spice-card glass" id="spice-cinnamon">
+            <div class="spice-icon">🌿</div>
+            <h3 class="spice-name">Quế</h3>
+            <p class="spice-desc">Quế thanh hóa ngọt ấm, cân bằng vị béo của xương và tạo chiều sâu cho nước dùng.</p>
+          </div>
+          <div class="spice-card glass" id="spice-ginger">
+            <div class="spice-icon">🫚</div>
+            <h3 class="spice-name">Gừng Nướng</h3>
+            <p class="spice-desc">Gừng nướng cháy xém mang lại vị ấm, hơi cay và loại bỏ mùi hôi của xương bò.</p>
+          </div>
+          <div class="spice-card glass" id="spice-bones">
+            <div class="spice-icon">🦴</div>
+            <h3 class="spice-name">Xương Ống Bò</h3>
+            <p class="spice-desc">Hầm 24 giờ, chiết xuất tối đa collagen và hương vị ngọt thanh tự nhiên của xương.</p>
+          </div>
+          <div class="spice-card glass" id="spice-herbs">
+            <div class="spice-icon">🌱</div>
+            <h3 class="spice-name">Rau Thơm Tươi</h3>
+            <p class="spice-desc">Rau húng quế, ngò gai, giá đỗ tươi mỗi ngày — giúp tô phở cân bằng và thanh mát.</p>
+          </div>
+          <div class="spice-card glass" id="spice-nuocmam">
+            <div class="spice-icon">🫙</div>
+            <h3 class="spice-name">Nước Mắm Truyền Thống</h3>
+            <p class="spice-desc">Nước mắm nhĩ Phú Quốc, nêm nếm theo công thức gia đình — vị mặn ngọt tự nhiên.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALLERY (ATMOSPHERE) ========== -->
+    <section id="gallery" class="section gallery-section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Không Gian</span>
+          <h2 id="gallery-title" class="section-title">Hương Vị & <em>Không Khí</em></h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item large" id="gallery-main">
+            <img src="./pho_hero.png" alt="Tô phở bò hấp dẫn" loading="lazy">
+            <div class="gallery-caption glass">
+              <p>Phở Đặc Biệt — Tô lớn đủ vị</p>
+            </div>
+          </div>
+          <div class="gallery-item" id="gallery-ambiance">
+            <img src="./pho_ambiance.png" alt="Không gian nhà hàng ấm cúng buổi tối" loading="lazy">
+            <div class="gallery-caption glass">
+              <p>Không gian ấm cúng, đậm chất Hà Nội</p>
+            </div>
+          </div>
+          <div class="gallery-item" id="gallery-ingredients">
+            <img src="./pho_ingredients.png" alt="Gia vị và nguyên liệu bí truyền" loading="lazy">
+            <div class="gallery-caption glass">
+              <p>Gia vị hương liệu chính thống</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section id="testimonials" class="section testimonials-section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Khách Hàng Nói Gì</span>
+          <h2 id="testimonials-title" class="section-title">Lời <em>Khen Ngợi</em></h2>
+        </div>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card glass-enhanced" id="testimonial-1">
+            <p>"Tô phở đầu tiên tôi ăn ở đây, và tôi biết ngay — đây là phở chuẩn Bắc nhất mà tôi từng thử. Nước dùng trong, ngọt tự nhiên, thịt mềm tan."</p>
+            <footer>
+              <cite>— Minh Tuấn, Hà Nội</cite>
+              <div class="stars" aria-label="5 sao">★★★★★</div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card glass-enhanced" id="testimonial-2">
+            <p>"Tôi đã đi 12 quốc gia, ăn phở ở nhiều nơi. Nơi đây gần nhất với ký ức phở của bà ngoại tôi — không cần giải thích thêm."</p>
+            <footer>
+              <cite>— Sophie Trần, Việt kiều Pháp</cite>
+              <div class="stars" aria-label="5 sao">★★★★★</div>
+            </footer>
+          </blockquote>
+          <blockquote class="testimonial-card glass-enhanced" id="testimonial-3">
+            <p>"Đặc biệt nhất là nước dùng — thơm, trong, ngọt hậu. Ăn một lần là nhớ mãi. Mỗi tuần tôi đều ghé qua ít nhất hai lần."</p>
+            <footer>
+              <cite>— Nguyễn Hà Linh, TP.HCM</cite>
+              <div class="stars" aria-label="5 sao">★★★★★</div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESERVATIONS / CONTACT ========== -->
+    <section id="reservations" class="section contact-section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-eyebrow">Đặt Bàn & Liên Hệ</span>
+            <h2 id="contact-title" class="section-title">Đến Thăm<br><em>Chúng Tôi</em></h2>
+            <address class="contact-details" id="contact">
+              <div class="contact-item" id="contact-address">
+                <span class="contact-icon" aria-hidden="true">📍</span>
+                <div>
+                  <strong>Địa chỉ</strong>
+                  <p>49 Phố Bát Đàn, Hoàn Kiếm<br>Hà Nội, Việt Nam</p>
+                </div>
+              </div>
+              <div class="contact-item" id="contact-hours">
+                <span class="contact-icon" aria-hidden="true">🕐</span>
+                <div>
+                  <strong>Giờ Mở Cửa</strong>
+                  <p>Hàng ngày: 6:00 — 22:00<br>Thứ Hai: 7:00 — 21:00</p>
+                </div>
+              </div>
+              <div class="contact-item" id="contact-phone">
+                <span class="contact-icon" aria-hidden="true">📞</span>
+                <div>
+                  <strong>Điện Thoại</strong>
+                  <p><a href="tel:+842438242424">(024) 3824-2424</a></p>
+                </div>
+              </div>
+            </address>
+          </div>
+
+          <form class="reservation-form glass-enhanced" id="reservation-form" aria-label="Form đặt bàn" novalidate>
+            <h3 class="form-title">Đặt Bàn Trước</h3>
+            <div class="form-group">
+              <label for="res-name">Họ và tên</label>
+              <input type="text" id="res-name" name="name" placeholder="Nguyễn Văn An" required autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="res-phone">Số điện thoại</label>
+              <input type="tel" id="res-phone" name="phone" placeholder="0912 345 678" required autocomplete="tel">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="res-date">Ngày</label>
+                <input type="date" id="res-date" name="date" required>
+              </div>
+              <div class="form-group">
+                <label for="res-time">Giờ</label>
+                <input type="time" id="res-time" name="time" min="06:00" max="21:30" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="res-guests">Số người</label>
+              <select id="res-guests" name="guests" required>
+                <option value="">-- Chọn số khách --</option>
+                <option value="1">1 người</option>
+                <option value="2">2 người</option>
+                <option value="3-4">3 - 4 người</option>
+                <option value="5-6">5 - 6 người</option>
+                <option value="7+">7 người trở lên</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="res-notes">Ghi chú</label>
+              <textarea id="res-notes" name="notes" rows="3" placeholder="Yêu cầu đặc biệt, dị ứng thực phẩm..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-filled btn-block" id="submit-reservation-btn">Xác Nhận Đặt Bàn</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="site-footer" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-vn">PHỞ BÒ</span>
+            <span class="logo-sub">HÀ NỘI</span>
+          </div>
+          <p class="footer-tagline">Hương vị truyền thống — Ký ức không phai</p>
+        </div>
+        <nav class="footer-nav" aria-label="Liên kết footer">
+          <h4>Khám Phá</h4>
+          <ul role="list">
+            <li><a href="#story">Câu Chuyện</a></li>
+            <li><a href="#menu">Thực Đơn</a></li>
+            <li><a href="#ingredients">Nguyên Liệu</a></li>
+            <li><a href="#gallery">Không Gian</a></li>
+          </ul>
+        </nav>
+        <div class="footer-social">
+          <h4>Theo Dõi Chúng Tôi</h4>
+          <div class="social-links">
+            <a href="#" id="social-facebook" aria-label="Facebook" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" id="social-instagram" aria-label="Instagram" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" id="social-tiktok" aria-label="TikTok" class="social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/></svg>
+            </a>
+          </div>
+          <p class="footer-phone"><a href="tel:+842438242424">(024) 3824-2424</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Phở Bò Hà Nội. Mọi quyền được bảo lưu.</p>
+        <p class="footer-credit">Hương vị từ năm 1968</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
